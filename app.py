@@ -15,7 +15,7 @@ jobrate = st.number_input("Job Rate", value=3.5, step=0.5, min_value=0.0)
 
 X = [years, jobrate]
 
-model = joblib.load("linearmodel.pkl")
+model = joblib.load("Linearmodel.pkl")
 
 st.divider()
 
